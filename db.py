@@ -14,7 +14,7 @@ _pg_pool = psycopg2.pool.SimpleConnectionPool(
     port=5432
 )
 
-_redis_client = redis.Redis(host="localhost", port=6379, decode_responses=True)
+_redis_client = redis.Redis(host = "127.0.0.1", port = 6379, db = 0, decode_responses = True)
 
 TABLE = '"Dataset_for_NGD"'
 CACHE_TTL = 600

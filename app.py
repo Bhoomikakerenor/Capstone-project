@@ -239,7 +239,7 @@ df = load_data()
 with st.sidebar:
     st.markdown("""
     <div style="padding:1.2rem 0.5rem 1.5rem 0.5rem;">
-        <div style="font-size:1.35rem;font-weight:800;color:#875BF7;letter-spacing:-0.02em;">📦 StockSeva</div>
+        <div style="font-size:1.35rem;font-weight:800;color:#875BF7;letter-spacing:-0.02em;">StockSeva</div>
         <div style="font-size:0.72rem;color:#6B7280;margin-top:2px;font-weight:500;">MSME Inventory Platform</div>
         <div style="margin-top:0.8rem;">Welcome to StockSeva</div>
     </div>
@@ -280,7 +280,7 @@ out_count = len(df[df["Status"] == "Out of Stock"])
 st.markdown(f"""
 <div class="top-bar">
     <div>
-        <div class="top-bar-title">📦 StockSeva</div>
+        <div class="top-bar-title">StockSeva</div>
         <div class="top-bar-sub">MSME Inventory Management · {today_str}</div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;">
